@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="texto">Podcasts </h1>
+<div class="row">
+    <div class="col-md-6">
+      <div class="podcast">
+          <h2>Título del podcast 1</h2>
+          <p>Descripción del podcast 1</p>
+          <a href="https://www.ejemplo.com">
+              <img src="static/imagenes_de_podcasts/podcast1.jpg" alt="Imagen del podcast" class="img-fluid">
+          </a>
+          <p>Fecha: 2022-01-01</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="podcast">
+          <h2>Título del podcast 2</h2>
+          <p>Descripción del podcast 2</p>
+          <a href="https://www.ejemplo.com">
+              <img src="static/imagenes_de_podcasts/podcast2.jpg" alt="Imagen del podcast" class="img-fluid">
+          </a>
+          <p>Fecha: 2022-01-02</p>
+      </div>
+    </div>
+</div>
+{% endblock %}
